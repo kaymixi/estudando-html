@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cadastro da liga dos Astronautas</title>
+</head>
+<body>
+  <h3> Cadastro da Liga dos Astronautas</h3>
+  <form>
+    <div>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="Name">
+  </div>
+    <br>
+    <div>
+    <label for="Email">Email:</label>
+    <input type="email" id="Email" name="Email">
+    <label for="password">-Password:</label>
+    <input type="password" id="password" name="password">
+  </div>
+    <br>
+    <div>
+    <label for="birthday">Data de Nascimento:</label>
+    <input type="birthday" id="birthday" name="birthday">
+    <label for="photo">-Foto:</label>
+    <input type="file" id="photo" name="photo">
+  </div>
+    <br>
+    <div>
+    <label for="nacionality">Nascionalidade:</label>
+    <select id="nacionality" name="nacionality">
+      <option value="brasileiro">Brasileiro</option>
+      <option value="Russo">Russo</option>
+      <option value="Norte-Americano">Norte-Americano</option>
+      <option value="frances">Francês</option>
+      <option value="mexicano">Mexicano</option>
+      <option value="Russo">Russo</option>
+      <option value="boliviano">Boliviano</option>
+    </select>
+    -Gênero:
+    <label for="female">F</label>
+    <input type="radio" id="f" name="female" value="female">
+    <label for="f">M</label>
+    <input type="radio" id="male" name="male" value="male">
+  </div>
+    <br>
+    <div>
+    Suas Principais Qualidades:
+    <br>
+    <label for="int">Inteligência</label>
+    <input type="checkbox" id="int" name="int" value="int">
+    <label for="res">Resiliência</label>
+    <input type="checkbox" id="res" name="res" value="res">
+    <label for="physic">Preparo Fisico</label>
+    <input type="checkbox" id="physic" name="physic" value="physic">
+    <label for="pmental">Preparo Mental</label>
+    <input type="checkbox" id="pmental" name="qualidades" value="pmental">
+    <label for="educ">Educação</label>
+    <input type="checkbox" id="educ" name="qualidades" value="educ">
+  </div>
+    <br>
+    <div>
+    <textarea name="description" rows="10" cols="25" placeholder="Porque você gostaria de ser um astronalta?"></textarea>
+  </div>
+    <br>
+    <div>
+    <input type="button" onclick="alert('Enviado com Sucesso!')" value="Enviar!">
+  </div>
+  </form>
+</body>
+</html>
